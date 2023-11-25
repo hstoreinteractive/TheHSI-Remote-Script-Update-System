@@ -104,4 +104,5 @@ def connect(HOST, PORT):
             return
         print("Success! Remote Device is Updated!\n")
 
-connect(HOST, PORT)
+if __name__ == "__main__":
+    connect(HOST, PORT)
