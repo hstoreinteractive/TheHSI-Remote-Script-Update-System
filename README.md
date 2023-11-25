@@ -21,4 +21,11 @@ This is a Python project for updating Python code on a remote Maschine
    ```
    pip install -r requirements.txt
    ```
- - 
+ - Run the example Program:
+   ```
+   python program.py
+   ```
+ - Run the update script:
+   ```
+   python update.py
+   ```
