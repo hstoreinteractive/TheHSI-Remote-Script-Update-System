@@ -2,7 +2,7 @@
 
 ### The remote_update Package only works under Windows at the Moment
 ### The Update Script works on most common Platforms
-### The name of the Server may only contain English Characters and _ no spaces
+### The name of the Server may only contain English Characters, _ and -! no spaces
 
 ## What is this?
 This is a Python project for updating Python code on a remote Maschine
