@@ -1,4 +1,4 @@
-# Remote Update
+# HSI Remote Update
 
 ### The remote_update Package only works under Windows at the Moment
 ### The Update Script works on most common Platforms
