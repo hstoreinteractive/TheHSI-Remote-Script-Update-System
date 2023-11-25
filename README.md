@@ -9,23 +9,41 @@ This is a Python project for updating Python code on a remote Maschine
 ## How to Use
 ### Server (Windows):
  - Install git & python3:
-   ```
+   ```bat
    winget install Git.Git python3
    ```
  - Clone Repository:
-   ```
+   ```bat
    git clone https://github.com/Henrisen/Remote-Update.git
    cd Remote-Update
    ```
- - Install all requirements:
+ - Integrate it into your Script:
+   ```python
+   import remote_update
+   
+   remote_update.listen('password', __file__, True)
    ```
+### Client (Windows):
+ - Install git & python3:
+   ```bat
+   winget install Git.Git python3
+   ```
+ - Clone Repository:
+   ```bat
+   git clone https://github.com/Henrisen/Remote-Update.git
+   cd Remote-Update
+   ```
+ - Change the values in update.py:
+   ```
+   HOST = "127.0.0.1"  # The server's hostname or IP address
+   PORT = 6489  # The port used by the server ( Default: 6489 )
+   FILE = "new_codebase.py" # File with updated code
+   ```
+ - Install all requirements:
+   ```bat
    pip install -r requirements.txt
    ```
- - Run the example Program:
-   ```
-   python program.py
-   ```
- - Run the update script:
-   ```
+ - Run the updator:
+   ```bat
    python update.py
    ```
