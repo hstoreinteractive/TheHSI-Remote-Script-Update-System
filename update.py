@@ -7,7 +7,8 @@ from random import choice
 
 HOST = "127.0.0.1"  # The server's hostname or IP address
 PORT = 6489  # The port used by the server
-FILE = "new_codebase.py"
+FILE = "new_codebase.py" # File with updated code
+
 version_r = compile("^200 - HSI Remote Script Update System v\d+\.\d+$")
 hash_methods = [
     (sha224, "sha224"),
