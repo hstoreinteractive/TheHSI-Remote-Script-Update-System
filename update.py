@@ -18,7 +18,7 @@ hash_methods = [
     (md5, "md5")
 ]
 
-def connect(HOST, PORT):
+def connect(HOST, PORT, FILE):
     with socket(AF_INET, SOCK_STREAM) as s:
         print("Connecting...")
         s.connect((HOST, PORT))
@@ -105,4 +105,4 @@ def connect(HOST, PORT):
         print("Success! Remote Device is Updated!\n")
 
 if __name__ == "__main__":
-    connect(HOST, PORT)
+    connect(HOST, PORT, FILE)
