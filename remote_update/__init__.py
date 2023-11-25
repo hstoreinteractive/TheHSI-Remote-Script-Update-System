@@ -94,7 +94,7 @@ def _listener(auth_token: str, __file_: str):
                             data = "200 - Updated"
                             conn.sendall(data.encode('utf-8'))
                             conn.close()
-                            system(f'cmd /c start /min cmd /c cd {dirname(__file_)} ^^^& TASKKILL /F /FI "PID eq {str(getpid())}" ^^^& del {__file_} ^^^& move program_update.py {__file_} ^^^& python {__file_}')
+                            system(f'cmd /c start /min cmd /c cd /d {dirname(__file_)} ^^^& TASKKILL /F /FI "PID eq {str(getpid())}" ^^^& del {__file_} ^^^& move program_update.py {__file_} ^^^& python {__file_}')
                             exit()
                         else:
                             data = f"401 - Not Authorized"
