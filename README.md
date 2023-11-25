@@ -15,7 +15,7 @@ This is a Python project for updating Python code on a remote Maschine
  - Clone Repository:
    ```bat
    git clone https://github.com/hstoreinteractive/HSI-Remote-Script-Update-System.git
-   cd Remote-Update
+   cd HSI-Remote-Script-Update-System
    ```
  - Integrate it into your Script:
    ```python
@@ -31,7 +31,7 @@ This is a Python project for updating Python code on a remote Maschine
  - Clone Repository:
    ```bat
    git clone https://github.com/Henrisen/Remote-Update.git
-   cd Remote-Update
+   cd HSI-Remote-Script-Update-System
    ```
  - Change the values in update.py:
    ```python
@@ -55,7 +55,7 @@ This is a Python project for updating Python code on a remote Maschine
  - Clone Repository:
    ```bash
    git clone https://github.com/Henrisen/Remote-Update.git
-   cd Remote-Update
+   cd HSI-Remote-Script-Update-System
    ```
  - Change the values in update.py:
    ```python
