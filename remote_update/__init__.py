@@ -6,7 +6,7 @@ from base64 import urlsafe_b64decode
 from os import system, getpid
 from os.path import dirname
 
-version = "v1.0"
+version = "v1.1"
 service = "HSI Remote Script Update System"
 
 kill = False
