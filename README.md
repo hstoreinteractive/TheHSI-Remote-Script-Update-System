@@ -11,7 +11,7 @@ This is a Python project for updating Python code on a remote Maschine
 ### Server (Windows):
  - Install git & python3:
    ```bat
-   winget install Git.Git python3
+   winget install -e Git.Git python3
    ```
  - Clone Repository:
    ```bat
@@ -27,7 +27,7 @@ This is a Python project for updating Python code on a remote Maschine
 ### Client (Windows):
  - Install git & python3:
    ```bat
-   winget install Git.Git python3
+   winget install -e Git.Git python3
    ```
  - Clone Repository:
    ```bat
@@ -51,7 +51,7 @@ This is a Python project for updating Python code on a remote Maschine
 ### Client (Linux):
  - Install git & python3:
    ```bash
-   sudo apt install git python3 python3-pip
+   sudo apt install -y git python3 python3-pip
    ```
  - Clone Repository:
    ```bash
