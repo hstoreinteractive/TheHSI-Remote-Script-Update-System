@@ -2,7 +2,7 @@
 
 ### The remote_update Package only works under Windows at the Moment
 ### The Update Script works on most common Platforms
-### The path of the Server Side Program may only contain English Characters, _ and -! no spaces
+### The path of to the program that should be updated should not contain spaces
 
 ## What is this?
 This is a Python project for updating Python code on a remote Maschine
@@ -44,7 +44,7 @@ This is a Python project for updating Python code on a remote Maschine
    ```bat
    pip install -r requirements.txt
    ```
- - Run the updator:
+ - Run the update:
    ```bat
    python update.py
    ```
@@ -68,7 +68,7 @@ This is a Python project for updating Python code on a remote Maschine
    ```bash
    pip install -r requirements.txt
    ```
- - Run the updator:
+ - Run the update:
    ```bash
    python update.py
    ```
